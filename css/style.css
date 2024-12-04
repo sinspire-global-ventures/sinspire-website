@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --primary-color: #4891ff;
+    --light-color: #f4f4f6;
+    --dark-color: #111;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: white;
+}
+
+
+
+
+.hero{
+    background:url('/Sinpire/images/background-hero.png') no-repeat;
+    background-size: cover;
+
+    height: 100vh;
+}
+
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container-sm {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.nav {
+    padding: 40px 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul{
+    width: 50%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul li a{
+    color: white;
+    font-weight: 500;
+}
+
+.nav i{
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+.nav img{
+    height: 5rem;
+    padding: 1rem;
+}
+
+.hero-content{
+    width: 75%;
+    margin: 0 auto;
+    /* justify-content: center; */
+
+}
+
+.hero-heading{
+
+    color: #ffaf4a;
+    font-size: 5rem;
+    line-height: 1;
+    font-weight: 600;
+    /* width: 80%; */
+    margin: 2rem auto;
+    
+    /* display: block; */
+
+}
+
+
+.hero-content p {
+    color: white;
+
+}
+
+.hero-tagline{
+    width: 70%;
+    margin: 3rem auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* buttons */
+
+
+
+.btn {
+    display: inline-block;
+    padding: 13px 30px;
+    background: var(--light-color);
+    color: #333;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: 0 2px 10px rgb(255, 255, 255);
+}
+
+
+
+
+.btn:hover {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 1), 0 0 40px rgba(255, 255, 255, 0.8);
+  transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+/* Active state */
+.btn:active {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  transform: scale(0.95); /* Slightly shrink the button */
+}
+
+
+
+.btn:hover {
+    opacity: .8;
+}
+
+.btn-primary {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+
+.btn-dark {
+    background: var(--dark-color);
+    color: #fff;
+
+}
+
+
+.btn-block {
+    display: block;
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---- */
+
+/* text utility classes */
+
+
+.bg-primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.bg-light {
+    background-color: var(--light-color);
+    color: #333;
+}
+
+.bg-dark {
+    background-color: var(--dark-color);
+    color: white;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.text-xxl {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 600;
+    margin: 40px 0 20px;
+}
+
+
+.text-xl {
+    font-size: 2.2rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 40px 0 20px;
+}
+
+.text-lg {
+    font-size: 1.8rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 30px 0 20px;
+}
+
+
+.text-md {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 20px 0 20px;
+}
+
+.text-sm {
+    font-size: .9rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 10px 0 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+
+/* card */
+
+
+.card {
+
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+.ham-button {
+    display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1000;
+
+}
+
+.ham-line{
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 6px 0;
+}
+
+.mobile-menu{
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 250px;
+    height: 100%;
+    z-index: 100;
+    background-color: fff;
+}
+
+
+@media (max-width:960px) {
+
+}
+
+
+@media (max-width:670px) {
+    .navbar .main-menu{
+        display: none;
+    }
+
+}
+
+
+@media (max-width:500px) {
+
+}
+
+
