@@ -22,7 +22,7 @@ body {
 
 
 .hero{
-    background:url('/Sinpire/images/background-hero.png') no-repeat;
+    background:url('../images/background-hero.png') no-repeat;
     background-size: cover;
 
     height: 100vh;
