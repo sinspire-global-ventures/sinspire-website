@@ -72,6 +72,9 @@
 
 
 .footer-col2 * {
-    margin-bottom:.7rem; 
+    margin-bottom:1.5rem; 
 }
 
+.footer .btn i{
+    font-size: 1rem;
+}
