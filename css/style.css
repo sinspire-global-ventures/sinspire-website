@@ -120,10 +120,10 @@ ul {
 .hero-content{
     width: 75%;
     margin: 40px auto;
-    margin-top: 8rem;
+    margin-top: 4rem;
     /* justify-content: center; */
     /* align-items: center; */
-    
+    padding-bottom: 8rem;
 
 }
 
