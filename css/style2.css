@@ -24,9 +24,11 @@
 
 
 .footer-column{
-    margin: 1rem;
-    max-width: 40%;
+    /* margin: 1rem; */
+    /* max-width: 40%; */
     /* display: flex; */
+    width: 50%;
+    margin: 0 auto;
     /* flex-direction:column; */
 }
 

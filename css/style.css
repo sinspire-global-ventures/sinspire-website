@@ -31,7 +31,7 @@ body {
     justify-content: space-between; */
 
 
-    
+
 }
 
 
@@ -97,6 +97,7 @@ ul {
 .nav i{
     color: white;
     font-size: 1.5rem;
+    /* display: none; */
 }
 
 
@@ -110,10 +111,16 @@ ul {
 }
 
 
+.nav .hamburger{
+    display: none;
+    /* font-size: 100px; */
+}
+
 
 .hero-content{
     width: 75%;
     margin: 40px auto;
+    margin-top: 8rem;
     /* justify-content: center; */
     /* align-items: center; */
     
@@ -138,8 +145,20 @@ ul {
 
 .hero-content p {
     color: white;
+    /* font-weight: 800; */
+    font-family: "Cairo", sans-serif;
+    font-size: 1.5rem;
+
 
 }
+
+.hero-content p span{
+    
+    font-family: "Cairo", sans-serif;
+    font-weight: 900;
+}
+
+
 
 .hero-tagline{
     width: 70%;
@@ -153,6 +172,9 @@ ul {
 
 
 
+
+
+
 .vision{
     margin: 50px 0;
     padding: 50px 0;
@@ -160,7 +182,7 @@ ul {
 
 .vision-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     margin: 60px auto;
@@ -503,32 +525,6 @@ ul {
 } */
 
 
-.ham-button {
-    display: block;
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-    z-index: 1000;
-
-}
-
-.ham-line{
-    width: 30px;
-    height: 3px;
-    background-color: #333;
-    margin: 6px 0;
-}
-
-.mobile-menu{
-    position: fixed;
-    top: 0;
-    right: -300px;
-    width: 250px;
-    height: 100%;
-    z-index: 100;
-    background-color: fff;
-}
 
 
 @media (max-width:960px) {
@@ -542,10 +538,26 @@ ul {
         font-size: 3rem;
     }
 
-    .nav{
-        display: hidden;
-        color: red;
+
+
+ 
+
+    .nav-icons{
+        /* display: 'none'; */
+        /* display: hidden !important; */
+        /* color: red; */
+        display: none;
     } 
+
+    .nav li{
+        display: none;
+    }
+
+    .nav .hamburger{
+        display: block;
+        padding-right: 20px;
+        font-size: 40px;
+    }
 
 
 
@@ -569,6 +581,13 @@ ul {
     .vision p{
         width: 100%;
     }
+
+    .hero-tagline{
+        width: 90%;
+        /* margin: 0 auto; */
+    }
+
+
 
 
 }
