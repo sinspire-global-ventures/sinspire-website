@@ -293,7 +293,7 @@ ul {
 .card {
     /* border: #333 4px solid; */
     position: relative;
-    width: 300px; /* Adjust size as needed */
+    min-width: 300px; /* Adjust size as needed */
     height: 400px; /* Adjust size as needed */
     border-radius: 10px;
     overflow: hidden;
@@ -541,7 +541,13 @@ ul {
     }
 
 
+    .card{
+        width: 100%;
+    }
 
+    .vision-container{
+        width: 100%;
+    }
  
 
     .nav-icons{
@@ -580,6 +586,8 @@ ul {
     .vision-content{
         width: 100%;
     }
+ 
+  
     .vision p{
         width: 100%;
     }
