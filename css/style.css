@@ -26,6 +26,12 @@ body {
     background-size: cover;
 
     min-height: 100vh;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+
+
+    
 }
 
 
@@ -72,6 +78,8 @@ ul {
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    /* margin: 040px auto; */
+    margin-bottom: 40px;
 }
 
 .nav ul{
@@ -105,9 +113,9 @@ ul {
 
 .hero-content{
     width: 75%;
-    margin: 0px auto;
+    margin: 40px auto;
     /* justify-content: center; */
-    align-items: center;
+    /* align-items: center; */
     
 
 }
@@ -529,9 +537,17 @@ ul {
 
 
 @media (max-width:670px) {
-    .navbar .main-menu{
-        display: none;
+
+    .hero-heading{
+        font-size: 3rem;
     }
+
+    .nav{
+        display: hidden;
+        color: red;
+    } 
+
+
 
 }
 
