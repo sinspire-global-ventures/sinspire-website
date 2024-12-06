@@ -13,6 +13,12 @@
 }
 
 
+/* .footer .container-lg{
+    
+    border: 1px solid white;
+} */
+
+
 
 .footer-container{
 
@@ -49,11 +55,13 @@
 .footer-trademark{
     /* display: flex; */
     /* align-items: center; */
-}
-.footer-trademark  {
-    /* margin: 0 10px; */
+    /* word-spacing: 10px; */
+    /* letter-spacing: 5px; */
+    font-family: "Cairo", sans-serif;
     font-size: 1rem;
+    margin-top: 3rem;
 }
+
 
 .footer i{
     margin: 10px;
