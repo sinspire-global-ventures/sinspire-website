@@ -9,7 +9,7 @@
     --primary-color: #4891ff;
     --light-color: #f4f4f6;
     --dark-color: #111;
-    --light-background: rgb(218, 248, 250);
+    --light-background: rgb(248, 244, 244);
 }
 
 body {
@@ -129,7 +129,7 @@ body {
 
 
 .hero-tagline {
-    width: 70%;
+    width: 80%;
     margin: 3rem auto;
 
 }
@@ -217,6 +217,7 @@ section {
 .sectors {
     /* padding-top: 4rem; */
     padding: 4rem 1px;
+    text-align: center;
     /* margin: 40px; */
 }
 
@@ -230,10 +231,22 @@ section {
     margin-bottom: 2rem;
 }
 
+.sectors .main-heading {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+
+
 
 .sectors .sub-heading {
     display: block;
     width: 60%;
+    margin: 2rem auto;
+
+
 }
 
 
@@ -255,16 +268,16 @@ section {
 
 .sectors .card-container {
     width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
     flex-wrap: wrap;
     margin: 20px auto;
 }
 
 
 .sectors .card {
-    margin: 10px;
+    margin: 10px 0;
 }
 
 

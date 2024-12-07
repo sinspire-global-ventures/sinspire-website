@@ -10,6 +10,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     /* 3 columns */
+    /* justify-content: space-around; */
     grid-auto-rows: 1fr;
     gap: 1rem;
     /* optional, to add spacing between grid items */

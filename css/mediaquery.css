@@ -80,6 +80,14 @@
 
 
 
+    .sectors .sub-heading {
+        /* display: block; */
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+
+
 
     /* .vision p {
         display: block;
@@ -90,6 +98,17 @@
     .hero-tagline {
         width: 90%;
         /* margin: 0 auto; */
+    }
+
+
+    .hero-content {
+        width: 100%;
+        margin: 40px auto;
+        margin-top: 6rem;
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* padding-bottom: 8rem; */
+
     }
 
 
