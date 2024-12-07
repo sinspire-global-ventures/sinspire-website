@@ -1,0 +1,106 @@
+@media (max-width:1024px) {
+    .vision-container {
+        width: 100%;
+    }
+}
+
+
+
+
+
+@media (max-width:960px) {
+
+
+
+    .hero-heading {
+        font-size: 3rem;
+    }
+
+
+    .card {
+        width: 100%;
+    }
+
+    .vision-img {
+        width: 100%;
+    }
+
+    .vision-text {
+        text-align: center;
+        display: inline;
+        width: auto;
+    }
+
+
+    .nav-icons {
+        /* display: 'none'; */
+        /* display: hidden !important; */
+        /* color: red; */
+        display: none;
+    }
+
+    .nav li {
+        display: none;
+    }
+
+    .nav .hamburger {
+        display: block;
+        padding-right: 20px;
+        font-size: 40px;
+    }
+
+    .vision-content {
+        width: 90%;
+        text-align: center;
+
+    }
+
+    .vision-content img {
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width:700px) {
+
+
+    html {
+        font-size: 14px;
+    }
+
+    .main-heading {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .vision-img::before {
+        display: none;
+    }
+
+
+
+
+    /* .vision p {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    } */
+
+    .hero-tagline {
+        width: 90%;
+        /* margin: 0 auto; */
+    }
+
+
+
+
+}
+
+
+@media (max-width:400px) {
+
+    html {
+        font-size: 12px;
+    }
+}
