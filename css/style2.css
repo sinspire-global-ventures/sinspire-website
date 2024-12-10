@@ -1,4 +1,4 @@
-.future {
+.programs {
     padding: 4rem 1px;
     background-color: var(--light-background);
 
@@ -37,12 +37,13 @@
 
 
 
-.future .future-heading {
+.programs .programs-heading {
     margin: 10px auto;
+    text-align: center;
 }
 
 
-.future-goal {
+.programs-goal {
     background-color: white;
     /* max-width: 350px; */
     text-align: center;
@@ -50,22 +51,53 @@
     margin: 10px;
 }
 
-.future-goal-heading {
+.programs-goal-heading {
     font-size: 1.1rem;
     margin: 1rem;
     line-height: 1;
     font-weight: 600;
 }
 
-.future-goal i {
+.programs-goal i {
     font-size: 3rem;
+}
+
+.future-heading{
+    padding-top: 4rem;
+    text-align: center;
+}
+
+.future-container{
+    margin: 4rem auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.future-card{
+    width: 400px;
+    padding: 4rem;
+    margin: 2rem;
+    background-color: rgb(246, 237, 237);
+}
+
+.future-card i{
+    font-size: 5rem;
+    margin: 1rem;
 }
 
 
 
-
-
-
+.future-dash{
+    /* margin: 1rem auto; */
+    display: block;
+    width: 5px;
+    height: 10px;
+    background-color: black;
+}
 
 
 

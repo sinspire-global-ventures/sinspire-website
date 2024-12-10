@@ -39,7 +39,7 @@
 /* Content container */
 .card-content {
     position: absolute;
-    bottom: 0;
+    top: 10%;
     z-index: 2;
     /* Above gradient overlay */
     color: white;
