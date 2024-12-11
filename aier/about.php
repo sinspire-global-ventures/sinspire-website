@@ -31,10 +31,10 @@
                 </div>
                 <div class="col-md-6">
                     <p style="margin-top: 50px;" class="animate-box" data-animate-effect="fadeInUp">
-                        Welcome to S-Inspire, where we believe in igniting the spark of inspiration in every learner! Our passion for education and commitment to excellence drive us to create a dynamic and empowering learning environment for students from SSLC and beyond. At S-Inspire, we are dedicated to fostering a love for learning and enabling individuals to reach their full potential.
+                        Welcome to Adishesha Institute of Education & Research, where we believe in igniting the spark of inspiration in every learner! Our passion for education and commitment to excellence drive us to create a dynamic and empowering learning environment for students from SSLC and beyond. At Adishesha, we are dedicated to fostering a love for learning and enabling individuals to reach their full potential.
                     </p>
                     <p style="margin-top: 50px;" class="animate-box" data-animate-effect="fadeInUp">
-                        To elevate future generations, S Inspire directs today's youth energy towards the right path by implementing projects aimed at personal, familial, social, and cultural upliftment. This initiative brings together a group of young hearts. S Inspire, while preserving the current situation, is initiating a new change by combining education and skills. It emphasizes utilizing diverse opportunities for the benefit of the younger generation. S Inspire Global Limited is dedicated to providing experiences in education, employment, wealth, arts, culture, celebrations, and joy.
+                        To elevate future generations,Adishesha directs today's youth energy towards the right path by implementing projects aimed at personal, familial, social, and cultural upliftment. This initiative brings together a group of young hearts. Adishesha, while preserving the current situation, is initiating a new change by combining education and skills. It emphasizes utilizing diverse opportunities for the benefit of the younger generation. Adishesha Institute of Education & Research is dedicated to providing experiences in education, employment, wealth, arts, culture, celebrations, and joy.
                     </p>
                 </div>
             </div>
@@ -77,10 +77,10 @@
                     You still need to make sure to attract those who click on the page. You can achieve this by having insightful, exciting content and ultimately makes them believe that they really need what you are offering.
                 </p>
                 <div class="testimonial-in-box">
-                    <img src="assets/images/testimonial/t1.jpg">
+                    <img src="assets/images/testimonial/devika.png">
                     <div class="bxx-text">
-                        <h4>Regina</h4>
-                        <h6>St Marys School, Tirussur</h6>
+                        <h4>Devika</h4>
+                        <h6>+2 science student</h6>
                     </div>
                 </div>
             </div>
@@ -91,10 +91,10 @@
                     You still need to make sure to attract those who click on the page. You can achieve this by having insightful, exciting content and ultimately makes them believe that they really need what you are offering.
                 </p>
                 <div class="testimonial-in-box">
-                    <img src="assets/images/testimonial/t2.jpg">
+                    <img src="assets/images/testimonial/athulya.png">
                     <div class="bxx-text">
-                        <h4>Sailesh</h4>
-                        <h6>ABC Metic School, Kozhikode</h6>
+                        <h4>Athulya</h4>
+                        <h6>UGC NET Aspirant</h6>
                     </div>
                 </div>
             </div>
@@ -105,10 +105,10 @@
                     You still need to make sure to attract those who click on the page. You can achieve this by having insightful, exciting content and ultimately makes them believe that they really need what you are offering.
                 </p>
                 <div class="testimonial-in-box">
-                    <img src="assets/images/testimonial/t3.jpg">
+                    <img src="assets/images/testimonial/adnan.png">
                     <div class="bxx-text">
-                        <h4>Fatima</h4>
-                        <h6>Govt Hr Sec school, Palakkad</h6>
+                        <h4>Adnan Abdulla</h4>
+                        <h6>+1 student </h6>
                     </div>
                 </div>
             </div>

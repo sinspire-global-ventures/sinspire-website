@@ -18,7 +18,7 @@
 			<div class="s_navbar">
 				<div class="s_logo">
 					<a href="#">
-						<img src="assets/images/logo.png" style="width: 200px;">
+						<img src="assets/images/logo2.png" style="width: 200px;">
 					</a>
 				</div>
 				<ul class="s_links">

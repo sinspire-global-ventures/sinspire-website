@@ -12,12 +12,12 @@
    
     <div class="row">
         <div class="col-md-6 animate-box" data-animate-effect="fadeInUp">
-            <img src="assets/images/web/about2.jpg" style="width: 100%;">
+            <img src="assets/images/web/section_background.png" style="width: 100%;">
         </div>
         <div class="col-md-6">
-            <h4 class="page-sub-heading">S-Inspire Education Company</h4>
+            <h4 class="page-sub-heading">Adishesha Institute of Education & Research</h4>
             <p class="animate-box" data-animate-effect="fadeInUp">
-                Welcome to S-Inspire, where we believe in igniting the spark of inspiration in every learner! Our passion for education and commitment to excellence drive us to create a dynamic and empowering learning environment for students from SSLC and beyond. At S-Inspire, we are dedicated to fostering a love for learning and enabling individuals to reach their full potential.
+                Welcome to Adishesha Institute of Education & Research ,  where we believe in igniting the spark of inspiration in every learner! Our passion for education and commitment to excellence drive us to create a dynamic and empowering learning environment for students from SSLC and beyond. At Adishesha Institute, we are dedicated to fostering a love for learning and enabling individuals to reach their full potential.
             </p>
 
             <h4 class="page-sub-heading">Our Vision</h4>
@@ -27,7 +27,7 @@
 
             <h4 class="page-sub-heading">Who We Are</h4>
             <p class="animate-box" data-animate-effect="fadeInUp">
-                S-Inspire is an innovative education company that offers a diverse range of learning programs designed to meet the unique needs and interests of each learner. Our team of experienced educators, curriculum developers, and tech experts work together to create personalized learning experiences that inspire students to grow academically and personally.
+                Adishesha is an innovative education company that offers a diverse range of learning programs designed to meet the unique needs and interests of each learner. Our team of experienced educators, curriculum developers, and tech experts work together to create personalized learning experiences that inspire students to grow academically and personally.
             </p>
 
             <h4 class="page-sub-heading">Our Mission</h4>
@@ -41,7 +41,7 @@
         <div class="col-md-12">
             <h4 class="page-sub-heading">What Sets Us Apart</h4>
             <p class="animate-box" data-animate-effect="fadeInUp">
-                At S-Inspire, we take pride in our innovative approach to education. Here are some key factors that set us apart:
+                At Adishesha, we take pride in our innovative approach to education. Here are some key factors that set us apart:
                 <ul class="animate-box" data-animate-effect="fadeInUp">
                     <li><b>Personalized Learning: </b>We understand that each student is unique, as are their learning styles and preferences. Our personalized learning approach tailors the curriculum to meet individual needs, ensuring optimal growth and development.</li>
                     <li><b>Passionate Educators: </b>Our dedicated team members are not just teachers; they are mentors and guides passionate about nurturing young minds and fostering a love for learning.</li>
@@ -52,7 +52,7 @@
 
             <h4 class="page-sub-heading">Our Programs</h4>
             <p class="animate-box" data-animate-effect="fadeInUp">
-                S-Inspire offers a comprehensive range of programs designed to support students at every stage of their learning journey, from early education to advanced academic support. Our programs include:
+                Adishesha offers a comprehensive range of programs designed to support students at every stage of their learning journey, from early education to advanced academic support. Our programs include:
                 <ul>
                     <li>Early Learning Adventures</li>
                     <li>Secondary School and Beyond</li>
@@ -62,11 +62,11 @@
                 </ul>
             </p>
 
-            <h4 class="page-sub-heading">Join the S-Inspire Community</h4>
+            <h4 class="page-sub-heading">Join our Community</h4>
             <p class="animate-box" data-animate-effect="fadeInUp">
-                We invite you to join the S-Inspire community and embark on an educational journey like no other. Together, let's cultivate a love for learning, embrace curiosity, and inspire tomorrow's leaders.
+                We invite you to join the Adishesha community and embark on an educational journey like no other. Together, let's cultivate a love for learning, embrace curiosity, and inspire tomorrow's leaders.
                 <br><br>
-                At S-Inspire, we believe that education is not just about acquiring knowledge; it's about transforming lives. Join us in shaping a brighter future, one learner at a time.
+                At Adishesha, we believe that education is not just about acquiring knowledge; it's about transforming lives. Join us in shaping a brighter future, one learner at a time.
             </p>
 
             <h3 class="page-sub-heading">Inspire. Learn. Succeed.</h3>
