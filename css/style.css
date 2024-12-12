@@ -24,6 +24,10 @@ body {
 
 .hero {
     background: url('../images/background-hero.png') no-repeat;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        /* Black mask */
+        var(--bg-url) no-repeat center center;
     background-size: cover;
 
     min-height: 100vh;
@@ -189,11 +193,11 @@ body {
     height: 100%;
     /* margin-right: 5px;  */
     /* z-index: 10000; */
-    background-color:#3084E6;
+    background-color: #3084E6;
     z-index: -1;
 }
 
-.vision-img:last-child:before{
+.vision-img:last-child:before {
     background-color: #f59e0b;
 }
 

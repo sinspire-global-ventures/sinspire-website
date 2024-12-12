@@ -2,6 +2,12 @@
     .vision-container {
         width: 100%;
     }
+
+    .vision-img::before {
+        display: none;
+    }
+
+
 }
 
 
@@ -72,10 +78,6 @@
     .main-heading {
         font-size: 2rem;
         text-align: center;
-    }
-
-    .vision-img::before {
-        display: none;
     }
 
 
