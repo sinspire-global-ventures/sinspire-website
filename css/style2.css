@@ -1,8 +1,8 @@
 .programs {
     padding: 4rem 1px;
-     background-color: var(--light-background); 
-     
-     /* background-color:blanchedalmond; */
+    background-color: var(--light-background);
+
+    /* background-color:blanchedalmond; */
     /* background: url('../images/background-hero.png') no-repeat;
     background-size: cover; */
 
@@ -69,24 +69,24 @@
 }
 
 
-.future{
+.future {
     background-color: rgb(255, 255, 255);
     min-height: 100vh;
     /* padding: 6rem auto; */
     padding: 5rem 1px;
 }
 
-.future-heading{
+.future-heading {
     /* padding-top: 2rem; */
     text-align: center;
 }
 
-.future-container{
+.future-container {
     /* padding: 5rem auto; */
 }
 
 
-.future-card{
+.future-card {
     /* margin: 2rem auto; */
     display: flex;
     align-items: baseline;
@@ -94,12 +94,12 @@
 }
 
 
-.future-icon{
+.future-icon {
     font-size: 3rem;
 }
 
 
-.future-card-heading{
+.future-card-heading {
     /* margin:1rem; */
     /* margin-left: 1rem; */
     font-size: 1.3rem;
@@ -107,7 +107,7 @@
 }
 
 
-.future-card-heading span{
+.future-card-heading span {
     margin-right: 1rem;
 }
 
@@ -147,7 +147,7 @@
 
     display: flex;
     justify-content: space-around;
-    align-items: baseline;
+    align-items: center;
     flex-wrap: wrap;
     padding-bottom: 5rem;
 
