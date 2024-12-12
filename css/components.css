@@ -132,7 +132,30 @@
 
 
 
+.heartbeat-button {
+    animation: heartbeat .5s infinite;
+    transform-origin: center;
+    outline: none;
+}
 
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+
+    /* 30% {
+        transform: scale(1.1);
+    } */
+
+    60% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
 
 
 
