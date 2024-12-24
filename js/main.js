@@ -32,3 +32,21 @@ hamburger.addEventListener('click', () => {
         hamburger.classList.add('fa-bars'); // Switch back to hamburger icon
     }
 });
+
+hamburgerMenu.addEventListener('click', (event) => {
+        // Toggle the display of the div
+        if (hamburgerMenu.style.display === "none" || hamburgerMenu.style.display === "") {
+            hamburgerMenu.style.display = "block";  // Show the div
+        } else {
+            hamburgerMenu.style.display = "none";   // Hide the div
+        }
+
+          // Toggle the hamburger and close icons
+    if (hamburger.classList.contains('fa-bars')) {
+        hamburger.classList.remove('fa-bars');
+        hamburger.classList.add('fa-times'); // Switch to close icon
+    } else {
+        hamburger.classList.remove('fa-times');
+        hamburger.classList.add('fa-bars'); // Switch back to hamburger icon
+    }
+  });

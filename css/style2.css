@@ -176,11 +176,13 @@
 
 .footer i {
     margin: 10px;
+    /* color: white; */
     /* font-size: 2rem; */
 }
 
 .footer-logos {
     font-size: 1.5rem;
+    color: white;
 }
 
 .footer .about span {
