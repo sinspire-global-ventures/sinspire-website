@@ -29,16 +29,13 @@ body {
 
 .hero {
     background: url('../images/background-hero.png') no-repeat;
-    background:
-        linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-        /* Black mask */
-        var(--bg-url) no-repeat center center;
     background-size: cover;
 
     min-height: 100vh;
     /* display: flex;
     flex-direction: column;
     justify-content: space-between; */
+    position: relative;
 }
 
 
@@ -57,15 +54,17 @@ body {
 }
 
 .nav ul {
-    width: 50%;
+    width: 65%;
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .nav ul li a {
+    /* margin: 1.2rem; */
     color: white;
     font-weight: 500;
+    /* padding: 1.2rem; */
 }
 
 .nav i {
@@ -85,10 +84,69 @@ body {
 }
 
 
-.nav .hamburger {
+.nav .hamburger,.hamburger-menu {
     display: none;
     /* font-size: 100px; */
 }
+
+
+.hamburger-menu{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    display: block;
+
+    /* min-height: 100vh; */
+    width: 90%;
+    margin: 0 auto;
+    z-index: 100;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+/* height: 100vh; */
+
+display: none;
+    
+    /* margin: 1rem; */
+}
+
+.hamburger-menu{
+    /* padding: 4rem 1px; */
+}
+
+.hamburger-menu li{
+    display: block;
+    background-color: rgb(227, 226, 225);
+    /* border: solid black 1px; */
+    border-bottom: 1px solid black;
+    padding: 2rem 4rem;
+    /* color: black; */
+}
+
+.hamburger-menu li a{
+    color: black;
+    font-weight: 600;
+}
+
+.hamburger-menu i{
+    display: inline-block;
+    font-size: 2.5rem;
+    margin: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .hero {
     padding-bottom: 4rem;
@@ -97,7 +155,7 @@ body {
 .hero-content {
     width: 75%;
     margin: 40px auto;
-    margin-top: 4rem;
+    margin-top: 2rem;
     /* justify-content: center; */
     /* align-items: center; */
     /* padding-bottom: 8rem; */
@@ -143,9 +201,18 @@ body {
 
 }
 
-.hero .btn {
-    margin-bottom: 40px;
+
+.hero-buttons{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+.hero-buttons a{
+    margin: 1rem;
+}
+
+
 
 
 

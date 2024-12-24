@@ -49,6 +49,10 @@
         display: none;
     }
 
+    .nav-menu {
+        display: none;
+    }
+
     .nav .hamburger {
         display: block;
         padding-right: 20px;
@@ -112,6 +116,11 @@
         /* padding-bottom: 8rem; */
 
     }
+
+
+
+
+
 
 
 

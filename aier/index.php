@@ -4,7 +4,7 @@
 
 <section id="home-page" class="animate-box" data-animate-effect="fadeInUp">
         <h1>Welcome to <br> Adishesha Institute of Education & Research </h1>
-        <h2>Welcome to <br>S Inspire</h2>
+        <!-- <h2>Welcome to <br>S Inspire</h2> -->
         <p>Improve your educational skills and achieve your goal.</p>
     </section>
 

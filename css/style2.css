@@ -79,37 +79,24 @@
 .future-heading {
     /* padding-top: 2rem; */
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 .future-container {
     /* padding: 5rem auto; */
-}
-
-
-.future-card {
-    /* margin: 2rem auto; */
     display: flex;
-    align-items: baseline;
-    margin: 1rem auto;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 
-.future-icon {
-    font-size: 3rem;
-}
 
 
-.future-card-heading {
-    /* margin:1rem; */
-    /* margin-left: 1rem; */
-    font-size: 1.3rem;
-    /* line-height: ; */
-}
 
 
-.future-card-heading span {
-    margin-right: 1rem;
-}
+
+
+
 
 
 
