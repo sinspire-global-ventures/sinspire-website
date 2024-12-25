@@ -119,8 +119,13 @@
 
 
 
+    .card-heading{
+        /* font-size: 1.7rem; */
 
-
+    }
+    .card-text{
+        font-size: 1.4rem;
+    }
 
 
 

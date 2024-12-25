@@ -182,8 +182,14 @@
 
 .footer-logos {
     font-size: 1.5rem;
-    color: white;
+    /* color: white; */
 }
+
+.footer-logos i{
+    color: white 
+}
+
+
 
 .footer .about span {
     /* display: flex; */
