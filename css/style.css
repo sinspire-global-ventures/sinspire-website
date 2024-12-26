@@ -178,18 +178,16 @@ display: none;
 }
 
 
-.hero-content p {
-    color: white;
-    /* font-weight: 800; */
-    font-family: "Cairo", sans-serif;
-    font-size: 1.5rem;
+.hero-tagline p {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 1.3rem;
 
 
 }
 
 .hero-content p span {
 
-    font-family: "Cairo", sans-serif;
     font-weight: 900;
 }
 
