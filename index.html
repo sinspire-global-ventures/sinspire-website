@@ -107,6 +107,8 @@
         }
     </style>
 
+    <link rel="stylesheet" href="css/animations.css">
+
     <script>
         function toggleMobileMenu() {
             const mobileMenu = document.getElementById('mobileMenu');
@@ -476,12 +478,12 @@
             </p>
         </div>
 
-        <!-- Goals Grid -->
+        <!-- Goals Grid with fixed height cards -->
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <!-- Goal Card 1 -->
-            <div class="group relative">
+            <div class="group relative h-[320px]"> <!-- Added fixed height -->
                 <div class="absolute -inset-1 bg-gradient-to-r from-blue-600 to-blue-400 rounded-2xl blur opacity-25 group-hover:opacity-75 transition duration-500"></div>
-                <div class="relative p-8 bg-white rounded-2xl">
+                <div class="relative p-8 bg-white rounded-2xl h-full flex flex-col"> <!-- Added flex column -->
                     <div class="text-5xl font-bold text-blue-500/20 mb-4">01</div>
                     <h4 class="text-2xl font-bold mb-4 text-gray-900">Expansion into new markets</h4>
                     <p class="text-gray-600 leading-relaxed">
@@ -491,9 +493,9 @@
             </div>
 
             <!-- Goal Card 2 -->
-            <div class="group relative">
+            <div class="group relative h-[320px]">
                 <div class="absolute -inset-1 bg-gradient-to-r from-blue-600 to-blue-400 rounded-2xl blur opacity-25 group-hover:opacity-75 transition duration-500"></div>
-                <div class="relative p-8 bg-white rounded-2xl">
+                <div class="relative p-8 bg-white rounded-2xl h-full flex flex-col">
                     <div class="text-5xl font-bold text-blue-500/20 mb-4">02</div>
                     <h4 class="text-2xl font-bold mb-4 text-gray-900">Enhancement of digital platforms</h4>
                     <p class="text-gray-600 leading-relaxed">
@@ -503,9 +505,9 @@
             </div>
 
             <!-- Goal Card 3 -->
-            <div class="group relative">
+            <div class="group relative h-[320px]">
                 <div class="absolute -inset-1 bg-gradient-to-r from-blue-600 to-blue-400 rounded-2xl blur opacity-25 group-hover:opacity-75 transition duration-500"></div>
-                <div class="relative p-8 bg-white rounded-2xl">
+                <div class="relative p-8 bg-white rounded-2xl h-full flex flex-col">
                     <div class="text-5xl font-bold text-blue-500/20 mb-4">03</div>
                     <h4 class="text-2xl font-bold mb-4 text-gray-900">Increased focus on sustainability</h4>
                     <p class="text-gray-600 leading-relaxed">
@@ -515,9 +517,9 @@
             </div>
 
             <!-- Goal Card 4 -->
-            <div class="group relative">
+            <div class="group relative h-[320px]">
                 <div class="absolute -inset-1 bg-gradient-to-r from-blue-600 to-blue-400 rounded-2xl blur opacity-25 group-hover:opacity-75 transition duration-500"></div>
-                <div class="relative p-8 bg-white rounded-2xl">
+                <div class="relative p-8 bg-white rounded-2xl h-full flex flex-col">
                     <div class="text-5xl font-bold text-blue-500/20 mb-4">04</div>
                     <h4 class="text-2xl font-bold mb-4 text-gray-900">Policy advocacy</h4>
                     <p class="text-gray-600 leading-relaxed">
@@ -527,10 +529,10 @@
             </div>
 
             <!-- Goal Card 5 -->
-            <div class="group relative">
+            <div class="group relative h-[320px]">
                 <div class="absolute -inset-1 bg-gradient-to-r from-blue-600 to-blue-400 rounded-2xl blur opacity-25 group-hover:opacity-75 transition duration-500"></div>
-                <div class="relative p-8 bg-white rounded-2xl">
-                    <div class="text-5xl font-bold text-blue-500/20 mb-4">05</div>
+                <div class="relative p-8 bg-white rounded-2xl h-full flex flex-col">
+                    <div class="text-5xl font-bold text-blue-500/20 mb-4">04</div>
                     <h4 class="text-2xl font-bold mb-4 text-gray-900">Strengthening Global Networks</h4>
                     <p class="text-gray-600 leading-relaxed">
                         The company aims to strengthen its relationships with international organizations, think tanks, and academic institutions.
@@ -629,6 +631,7 @@
 </footer>
 
     <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-L5Y8M46FQ6"></script>
     <script>
